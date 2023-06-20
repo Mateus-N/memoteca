@@ -1,0 +1,405 @@
+[11:47:36 INF] Iniciando aplicação Web
+[11:47:37 INF] Now listening on: https://localhost:7043
+[11:47:37 INF] Now listening on: http://localhost:5084
+[11:47:37 INF] Application started. Press Ctrl+C to shut down.
+[11:47:37 INF] Hosting environment: Development
+[11:47:37 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[11:47:39 INF] HTTP PUT /api/pensamentos responded 200 in 355.4744 ms
+[11:47:45 WRN] Pensamento não encontrado
+[11:47:45 INF] HTTP PUT /api/pensamentos responded 404 in 60.9686 ms
+[11:47:49 INF] HTTP PUT /api/pensamentos responded 400 in 6.3022 ms
+[11:47:55 INF] HTTP PUT /api/pensamentos responded 400 in 0.8462 ms
+[11:47:59 INF] HTTP PUT /api/pensamentos responded 200 in 7.6111 ms
+[12:05:22 INF] Iniciando aplicação Web
+[12:05:22 INF] Now listening on: https://localhost:7043
+[12:05:22 INF] Now listening on: http://localhost:5084
+[12:05:22 INF] Application started. Press Ctrl+C to shut down.
+[12:05:22 INF] Hosting environment: Development
+[12:05:22 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:05:34 INF] HTTP GET /api/pensamentos responded 200 in 288.7482 ms
+[12:11:09 INF] HTTP GET /api/pensamentos responded 415 in 13.6004 ms
+[12:11:39 INF] HTTP GET /api/pensamentos responded 400 in 6.4396 ms
+[12:11:44 INF] HTTP GET /api/pensamentos responded 200 in 79.0317 ms
+[12:14:14 INF] HTTP GET /api/pensamentos responded 415 in 1.3462 ms
+[12:14:20 INF] HTTP GET /api/pensamentos responded 415 in 0.7568 ms
+[12:15:23 INF] HTTP GET /api/pensamentos responded 415 in 1.4814 ms
+[12:15:26 INF] HTTP GET /api/pensamentos responded 415 in 0.7213 ms
+[12:15:43 INF] HTTP GET /api/pensamentos responded 415 in 1.0153 ms
+[12:15:46 INF] HTTP GET /api/pensamentos responded 415 in 1.1686 ms
+[12:15:48 INF] HTTP GET /api/pensamentos responded 415 in 0.7596 ms
+[12:15:52 INF] HTTP GET /api/pensamentos responded 415 in 0.4152 ms
+[12:15:53 INF] HTTP GET /api/pensamentos responded 415 in 1.3966 ms
+[12:16:13 INF] HTTP GET /api/pensamentos responded 415 in 0.8425 ms
+[12:16:20 INF] HTTP GET /api/pensamentos responded 415 in 0.5629 ms
+[12:16:20 INF] HTTP GET /api/pensamentos responded 415 in 0.6394 ms
+[12:16:22 INF] HTTP GET /api/pensamentos responded 415 in 0.6144 ms
+[12:16:22 INF] HTTP GET /api/pensamentos responded 415 in 1.9335 ms
+[12:16:25 INF] HTTP GET /api/pensamentos responded 415 in 0.7365 ms
+[12:16:25 INF] HTTP GET /api/pensamentos responded 415 in 1.3629 ms
+[12:16:27 INF] HTTP GET /api/pensamentos responded 415 in 0.4494 ms
+[12:16:27 INF] HTTP GET /api/pensamentos responded 415 in 0.7888 ms
+[12:17:37 INF] HTTP GET /api/pensamentos responded 415 in 0.7183 ms
+[12:18:35 INF] HTTP GET /api/pensamentos responded 415 in 0.5293 ms
+[12:26:31 INF] Iniciando aplicação Web
+[12:26:31 INF] Now listening on: https://localhost:7043
+[12:26:31 INF] Now listening on: http://localhost:5084
+[12:26:31 INF] Application started. Press Ctrl+C to shut down.
+[12:26:31 INF] Hosting environment: Development
+[12:26:31 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:26:40 INF] HTTP GET /api/pensamentos responded 200 in 285.5506 ms
+[12:26:47 INF] HTTP GET /api/pensamentos responded 200 in 84.6312 ms
+[12:26:57 INF] HTTP GET /api/pensamentos responded 200 in 8.5225 ms
+[12:27:05 INF] HTTP GET /api/pensamentos responded 200 in 5.0637 ms
+[12:27:42 INF] HTTP GET /api/pensamentos responded 200 in 11.2952 ms
+[12:28:25 INF] HTTP GET /api/pensamentos responded 200 in 7.5307 ms
+[12:28:37 INF] HTTP GET /api/pensamentos responded 200 in 9.5449 ms
+[12:29:04 INF] HTTP GET /api/pensamentos responded 200 in 5.2993 ms
+[12:29:15 INF] HTTP GET /api/pensamentos responded 200 in 6.2842 ms
+[12:29:25 INF] HTTP GET /api/pensamentos responded 200 in 5.9447 ms
+[12:29:32 INF] HTTP GET /api/pensamentos responded 200 in 5.0532 ms
+[12:29:40 INF] HTTP GET /api/pensamentos responded 200 in 7.1138 ms
+[12:30:41 INF] HTTP GET /api/pensamentos responded 200 in 5.1498 ms
+[12:40:21 INF] Iniciando aplicação Web
+[12:40:21 INF] Now listening on: https://localhost:7043
+[12:40:21 INF] Now listening on: http://localhost:5084
+[12:40:21 INF] Application started. Press Ctrl+C to shut down.
+[12:40:21 INF] Hosting environment: Development
+[12:40:21 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:40:22 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:40:22 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:40:22 INF] HTTP GET /api/pensamentos responded 200 in 335.9628 ms
+[12:40:46 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:40:46 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:40:46 INF] HTTP GET /api/pensamentos responded 200 in 78.0324 ms
+[12:41:20 INF] HTTP GET /api/pensamentos responded 200 in 9.4539 ms
+[12:41:46 INF] HTTP GET /api/pensamentos responded 200 in 5.9337 ms
+[12:42:28 INF] HTTP GET /api/pensamentos responded 200 in 4.5688 ms
+[12:42:57 INF] Iniciando aplicação Web
+[12:42:58 INF] Now listening on: https://localhost:7043
+[12:42:58 INF] Now listening on: http://localhost:5084
+[12:42:58 INF] Application started. Press Ctrl+C to shut down.
+[12:42:58 INF] Hosting environment: Development
+[12:42:58 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:42:58 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:42:58 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:42:58 INF] HTTP GET /api/pensamentos responded 200 in 318.3305 ms
+[12:43:16 INF] Iniciando aplicação Web
+[12:43:16 INF] Now listening on: https://localhost:7043
+[12:43:16 INF] Now listening on: http://localhost:5084
+[12:43:16 INF] Application started. Press Ctrl+C to shut down.
+[12:43:16 INF] Hosting environment: Development
+[12:43:16 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:43:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:43:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[12:43:18 INF] HTTP GET /api/pensamentos responded 200 in 344.5480 ms
+[12:46:07 INF] Iniciando aplicação Web
+[12:46:07 INF] Now listening on: https://localhost:7043
+[12:46:07 INF] Now listening on: http://localhost:5084
+[12:46:07 INF] Application started. Press Ctrl+C to shut down.
+[12:46:07 INF] Hosting environment: Development
+[12:46:07 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:46:09 INF] HTTP GET /api/pensamentos responded 200 in 330.9450 ms
+[12:46:21 INF] HTTP GET /api/pensamentos responded 200 in 47.5869 ms
+[12:46:41 INF] Iniciando aplicação Web
+[12:46:41 INF] Now listening on: https://localhost:7043
+[12:46:41 INF] Now listening on: http://localhost:5084
+[12:46:41 INF] Application started. Press Ctrl+C to shut down.
+[12:46:41 INF] Hosting environment: Development
+[12:46:41 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:46:42 INF] HTTP GET /api/pensamentos responded 200 in 302.0154 ms
+[12:46:49 INF] HTTP GET /api/pensamentos responded 200 in 49.4737 ms
+[12:47:06 INF] Iniciando aplicação Web
+[12:47:06 INF] Now listening on: https://localhost:7043
+[12:47:06 INF] Now listening on: http://localhost:5084
+[12:47:06 INF] Application started. Press Ctrl+C to shut down.
+[12:47:06 INF] Hosting environment: Development
+[12:47:06 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:47:09 INF] HTTP GET /api/pensamentos responded 200 in 342.7933 ms
+[12:56:50 INF] Iniciando aplicação Web
+[12:56:50 INF] Now listening on: https://localhost:7043
+[12:56:50 INF] Now listening on: http://localhost:5084
+[12:56:50 INF] Application started. Press Ctrl+C to shut down.
+[12:56:50 INF] Hosting environment: Development
+[12:56:50 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[12:56:53 INF] HTTP GET /api/pensamentos responded 200 in 323.3869 ms
+[12:57:07 INF] HTTP GET /api/pensamentos responded 200 in 51.0064 ms
+[12:57:32 INF] HTTP GET /api/pensamentos responded 200 in 8.8340 ms
+[12:58:02 INF] HTTP GET /api/pensamentos responded 200 in 6.4565 ms
+[13:00:35 INF] Iniciando aplicação Web
+[13:00:35 INF] Now listening on: https://localhost:7043
+[13:00:35 INF] Now listening on: http://localhost:5084
+[13:00:35 INF] Application started. Press Ctrl+C to shut down.
+[13:00:35 INF] Hosting environment: Development
+[13:00:35 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:00:37 INF] HTTP GET /api/pensamentos responded 200 in 327.4533 ms
+[13:00:45 ERR] Erro ao buscar todos os pensamentos
+[13:00:45 ERR] HTTP GET /api/pensamentos responded 500 in 65.3256 ms
+[13:04:23 INF] Iniciando aplicação Web
+[13:04:23 INF] Now listening on: https://localhost:7043
+[13:04:23 INF] Now listening on: http://localhost:5084
+[13:04:23 INF] Application started. Press Ctrl+C to shut down.
+[13:04:23 INF] Hosting environment: Development
+[13:04:23 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:04:24 INF] HTTP GET /api/pensamentos responded 200 in 314.2676 ms
+[13:05:38 INF] Iniciando aplicação Web
+[13:05:38 INF] Now listening on: https://localhost:7043
+[13:05:38 INF] Now listening on: http://localhost:5084
+[13:05:38 INF] Application started. Press Ctrl+C to shut down.
+[13:05:38 INF] Hosting environment: Development
+[13:05:38 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:05:40 INF] HTTP GET /api/pensamentos responded 200 in 296.4747 ms
+[13:05:50 INF] HTTP GET /api/pensamentos responded 200 in 47.9155 ms
+[13:06:06 INF] HTTP GET /api/pensamentos responded 200 in 8.6798 ms
+[13:07:26 INF] Iniciando aplicação Web
+[13:07:26 INF] Now listening on: https://localhost:7043
+[13:07:26 INF] Now listening on: http://localhost:5084
+[13:07:26 INF] Application started. Press Ctrl+C to shut down.
+[13:07:26 INF] Hosting environment: Development
+[13:07:26 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:07:27 INF] HTTP GET /api/pensamentos responded 200 in 329.4146 ms
+[13:07:35 INF] HTTP GET /api/pensamentos responded 200 in 43.1847 ms
+[13:07:46 INF] HTTP GET /api/pensamentos responded 200 in 8.5456 ms
+[13:07:56 INF] HTTP GET /api/pensamentos responded 200 in 5.8960 ms
+[13:08:31 INF] HTTP GET /api/pensamentos responded 200 in 9.7790 ms
+[13:36:19 INF] Iniciando aplicação Web
+[13:36:19 INF] Now listening on: https://localhost:7043
+[13:36:19 INF] Now listening on: http://localhost:5084
+[13:36:19 INF] Application started. Press Ctrl+C to shut down.
+[13:36:19 INF] Hosting environment: Development
+[13:36:19 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:36:25 INF] HTTP GET /api/pensamentos responded 200 in 278.9882 ms
+[13:36:49 INF] HTTP GET /api/pensamentos responded 200 in 62.3323 ms
+[13:36:59 INF] HTTP GET /api/pensamentos responded 200 in 9.3263 ms
+[13:37:04 INF] HTTP GET /api/pensamentos responded 200 in 5.0251 ms
+[13:37:44 INF] HTTP GET /api/pensamentos responded 200 in 5.4323 ms
+[13:39:43 INF] HTTP GET /api/pensamentos responded 200 in 10.5650 ms
+[13:40:10 INF] HTTP GET /api/pensamentos responded 200 in 10.9200 ms
+[13:40:35 INF] HTTP GET /api/pensamentos responded 200 in 11.6851 ms
+[13:40:40 INF] HTTP GET /api/pensamentos responded 200 in 11.1766 ms
+[13:53:38 INF] Iniciando aplicação Web
+[13:53:38 INF] Now listening on: https://localhost:7043
+[13:53:38 INF] Now listening on: http://localhost:5084
+[13:53:38 INF] Application started. Press Ctrl+C to shut down.
+[13:53:38 INF] Hosting environment: Development
+[13:53:38 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[13:54:49 INF] HTTP GET /api/pensamentos responded 200 in 470.1418 ms
+[13:54:50 INF] HTTP GET /api/pensamentos responded 200 in 100.3120 ms
+[13:55:02 INF] HTTP GET /api/pensamentos responded 200 in 11.9979 ms
+[13:55:18 INF] HTTP GET /api/pensamentos responded 200 in 12.4634 ms
+[13:55:33 INF] HTTP GET /api/pensamentos responded 200 in 10.2776 ms
+[13:55:38 INF] HTTP GET /api/pensamentos responded 200 in 8.4623 ms
+[13:55:40 INF] HTTP GET /api/pensamentos responded 200 in 9.4491 ms
+[13:59:10 INF] HTTP GET /api/pensamentos responded 200 in 25.7425 ms
+[13:59:11 INF] HTTP GET /api/pensamentos responded 200 in 28.5409 ms
+[13:59:23 INF] HTTP GET /api/pensamentos responded 200 in 10.2893 ms
+[14:01:07 INF] HTTP GET /api/pensamentos responded 200 in 13.4789 ms
+[14:01:24 INF] HTTP GET /api/pensamentos responded 200 in 6.8267 ms
+[14:01:51 INF] HTTP POST /api/pensamentos responded 201 in 92.6813 ms
+[14:02:03 INF] HTTP GET /api/pensamentos responded 200 in 11.1989 ms
+[14:27:31 INF] HTTP GET /api/pensamentos responded 200 in 40.6977 ms
+[14:27:34 INF] HTTP GET /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 200 in 35.5775 ms
+[14:27:35 INF] HTTP DELETE /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 204 in 41.0740 ms
+[14:27:38 INF] HTTP DELETE /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 204 in 4.9367 ms
+[14:28:46 WRN] Pensamento id="0f9f33ab-46d4-43b9-5c3e-08db710c5781" não encontrado
+[14:28:46 INF] HTTP GET /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 404 in 7.3362 ms
+[14:28:47 WRN] Pensamento id="0f9f33ab-46d4-43b9-5c3e-08db710c5781" não encontrado
+[14:28:47 INF] HTTP GET /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 404 in 4.4414 ms
+[14:28:50 INF] HTTP DELETE /api/pensamentos/ responded 405 in 0.0869 ms
+[14:28:52 WRN] Pensamento id="0f9f33ab-46d4-43b9-5c3e-08db710c5781" não encontrado
+[14:28:52 INF] HTTP GET /api/pensamentos/0f9f33ab-46d4-43b9-5c3e-08db710c5781 responded 404 in 9.5400 ms
+[14:29:02 INF] HTTP GET /api/pensamentos responded 200 in 20.3001 ms
+[14:29:06 INF] HTTP GET /api/pensamentos/12495c69-01dd-4306-d855-08db710727d7 responded 200 in 7.1611 ms
+[14:29:07 INF] HTTP DELETE /api/pensamentos/12495c69-01dd-4306-d855-08db710727d7 responded 204 in 21.3859 ms
+[14:29:09 INF] HTTP DELETE /api/pensamentos/12495c69-01dd-4306-d855-08db710727d7 responded 204 in 3.5935 ms
+[14:29:57 WRN] Pensamento id="12495c69-01dd-4306-d855-08db710727d7" não encontrado
+[14:29:57 INF] HTTP GET /api/pensamentos/12495c69-01dd-4306-d855-08db710727d7 responded 404 in 5.9271 ms
+[14:29:59 WRN] Pensamento id="12495c69-01dd-4306-d855-08db710727d7" não encontrado
+[14:29:59 INF] HTTP GET /api/pensamentos/12495c69-01dd-4306-d855-08db710727d7 responded 404 in 4.6956 ms
+[14:30:01 INF] HTTP DELETE /api/pensamentos/ responded 405 in 0.1192 ms
+[14:30:02 INF] HTTP GET /api/pensamentos responded 200 in 11.4721 ms
+[14:30:10 INF] HTTP GET /api/pensamentos/182d7aba-1429-43ba-5c3f-08db710c5781 responded 200 in 8.0498 ms
+[14:30:11 INF] HTTP DELETE /api/pensamentos/182d7aba-1429-43ba-5c3f-08db710c5781 responded 204 in 24.9984 ms
+[14:30:11 INF] HTTP GET /api/pensamentos responded 200 in 6.0113 ms
+[14:30:18 INF] HTTP GET /api/pensamentos/2cf94f29-c103-4f23-d860-08db710727d7 responded 200 in 6.3972 ms
+[14:30:19 INF] HTTP DELETE /api/pensamentos/2cf94f29-c103-4f23-d860-08db710727d7 responded 204 in 21.1181 ms
+[14:30:19 INF] HTTP GET /api/pensamentos responded 200 in 6.6375 ms
+[14:30:20 INF] HTTP GET /api/pensamentos/2f8c88c0-1930-44f8-d85c-08db710727d7 responded 200 in 7.7260 ms
+[14:30:21 INF] HTTP DELETE /api/pensamentos/2f8c88c0-1930-44f8-d85c-08db710727d7 responded 204 in 21.6769 ms
+[14:30:21 INF] HTTP GET /api/pensamentos responded 200 in 7.6367 ms
+[14:30:22 INF] HTTP GET /api/pensamentos/33fd877f-8757-4f7a-d85b-08db710727d7 responded 200 in 6.3616 ms
+[14:30:23 INF] HTTP DELETE /api/pensamentos/33fd877f-8757-4f7a-d85b-08db710727d7 responded 204 in 22.1792 ms
+[14:30:23 INF] HTTP GET /api/pensamentos responded 200 in 4.6493 ms
+[14:30:24 INF] HTTP GET /api/pensamentos/347f4e66-1aed-4fc5-5c42-08db710c5781 responded 200 in 8.5884 ms
+[14:30:24 INF] HTTP DELETE /api/pensamentos/347f4e66-1aed-4fc5-5c42-08db710c5781 responded 204 in 17.5154 ms
+[14:30:24 INF] HTTP GET /api/pensamentos responded 200 in 4.9834 ms
+[14:30:26 INF] HTTP GET /api/pensamentos/44d87ba7-57ce-45c3-5c46-08db710c5781 responded 200 in 4.3454 ms
+[14:30:27 INF] HTTP DELETE /api/pensamentos/44d87ba7-57ce-45c3-5c46-08db710c5781 responded 204 in 21.5893 ms
+[14:30:27 INF] HTTP GET /api/pensamentos responded 200 in 4.6447 ms
+[14:30:28 INF] HTTP GET /api/pensamentos/590d68d5-34bd-4f30-d858-08db710727d7 responded 200 in 7.0865 ms
+[14:30:29 INF] HTTP DELETE /api/pensamentos/590d68d5-34bd-4f30-d858-08db710727d7 responded 204 in 13.0638 ms
+[14:30:29 INF] HTTP GET /api/pensamentos responded 200 in 4.2040 ms
+[14:30:30 INF] HTTP GET /api/pensamentos/593982a4-41ed-4f56-d85f-08db710727d7 responded 200 in 4.0239 ms
+[14:30:31 INF] HTTP DELETE /api/pensamentos/593982a4-41ed-4f56-d85f-08db710727d7 responded 204 in 13.7492 ms
+[14:30:31 INF] HTTP GET /api/pensamentos responded 200 in 6.3665 ms
+[14:30:32 INF] HTTP GET /api/pensamentos/08702f3f-5c1e-4ff9-d856-08db710727d7 responded 200 in 7.0535 ms
+[14:30:32 INF] HTTP DELETE /api/pensamentos/08702f3f-5c1e-4ff9-d856-08db710727d7 responded 204 in 12.6009 ms
+[14:30:32 INF] HTTP GET /api/pensamentos responded 200 in 6.2337 ms
+[14:30:33 INF] HTTP GET /api/pensamentos/59ae655d-15fb-4cdc-d854-08db710727d7 responded 200 in 6.6221 ms
+[14:30:33 INF] HTTP DELETE /api/pensamentos/59ae655d-15fb-4cdc-d854-08db710727d7 responded 204 in 9.8071 ms
+[14:30:33 INF] HTTP GET /api/pensamentos responded 200 in 4.6416 ms
+[14:30:34 INF] HTTP GET /api/pensamentos/5cab40f7-872b-464c-d853-08db710727d7 responded 200 in 6.2916 ms
+[14:30:35 INF] HTTP DELETE /api/pensamentos/5cab40f7-872b-464c-d853-08db710727d7 responded 204 in 20.9767 ms
+[14:30:35 INF] HTTP GET /api/pensamentos responded 200 in 6.0402 ms
+[14:30:36 INF] HTTP GET /api/pensamentos/604b2687-b472-4ce1-5c40-08db710c5781 responded 200 in 5.5431 ms
+[14:30:36 INF] HTTP DELETE /api/pensamentos/604b2687-b472-4ce1-5c40-08db710c5781 responded 204 in 24.0469 ms
+[14:30:36 INF] HTTP GET /api/pensamentos responded 200 in 4.0098 ms
+[14:30:37 INF] HTTP GET /api/pensamentos/670a4221-27eb-44ec-5c41-08db710c5781 responded 200 in 6.2281 ms
+[14:30:38 INF] HTTP DELETE /api/pensamentos/670a4221-27eb-44ec-5c41-08db710c5781 responded 204 in 21.4514 ms
+[14:30:38 INF] HTTP GET /api/pensamentos responded 200 in 7.1362 ms
+[14:30:39 INF] HTTP GET /api/pensamentos/69a62cd0-a018-4bb8-5c44-08db710c5781 responded 200 in 6.3590 ms
+[14:30:39 INF] HTTP DELETE /api/pensamentos/69a62cd0-a018-4bb8-5c44-08db710c5781 responded 204 in 11.3534 ms
+[14:30:39 INF] HTTP GET /api/pensamentos responded 200 in 4.2056 ms
+[14:30:40 INF] HTTP GET /api/pensamentos/72de03d8-c27d-41e3-d862-08db710727d7 responded 200 in 5.2195 ms
+[14:30:40 INF] HTTP DELETE /api/pensamentos/72de03d8-c27d-41e3-d862-08db710727d7 responded 204 in 22.0984 ms
+[14:30:40 INF] HTTP GET /api/pensamentos responded 200 in 4.5313 ms
+[14:30:41 INF] HTTP GET /api/pensamentos/79c7bd5b-81ef-4b4c-d866-08db710727d7 responded 200 in 5.9409 ms
+[14:30:42 INF] HTTP DELETE /api/pensamentos/79c7bd5b-81ef-4b4c-d866-08db710727d7 responded 204 in 22.0538 ms
+[14:30:42 INF] HTTP GET /api/pensamentos responded 200 in 4.9107 ms
+[14:30:42 INF] HTTP GET /api/pensamentos/7a1dc701-f819-48a1-d852-08db710727d7 responded 200 in 6.1513 ms
+[14:30:43 INF] HTTP DELETE /api/pensamentos/7a1dc701-f819-48a1-d852-08db710727d7 responded 204 in 25.2419 ms
+[14:30:43 INF] HTTP GET /api/pensamentos responded 200 in 4.0911 ms
+[14:30:43 INF] HTTP GET /api/pensamentos/9ad7d20b-23d9-402f-5c45-08db710c5781 responded 200 in 5.5614 ms
+[14:30:44 INF] HTTP DELETE /api/pensamentos/9ad7d20b-23d9-402f-5c45-08db710c5781 responded 204 in 11.2517 ms
+[14:30:44 INF] HTTP GET /api/pensamentos responded 200 in 5.6254 ms
+[14:30:45 INF] HTTP GET /api/pensamentos/9d11a4a5-7052-4ec8-d85d-08db710727d7 responded 200 in 6.3316 ms
+[14:30:45 INF] HTTP DELETE /api/pensamentos/9d11a4a5-7052-4ec8-d85d-08db710727d7 responded 204 in 22.3607 ms
+[14:30:45 INF] HTTP GET /api/pensamentos responded 200 in 4.0197 ms
+[14:30:46 INF] HTTP GET /api/pensamentos/a6a52c62-6b99-477e-d863-08db710727d7 responded 200 in 6.7769 ms
+[14:30:46 INF] HTTP DELETE /api/pensamentos/a6a52c62-6b99-477e-d863-08db710727d7 responded 204 in 21.8630 ms
+[14:30:46 INF] HTTP GET /api/pensamentos responded 200 in 4.0974 ms
+[14:30:47 INF] HTTP GET /api/pensamentos/b32323cc-4df2-48ea-5c43-08db710c5781 responded 200 in 5.5514 ms
+[14:30:47 INF] HTTP DELETE /api/pensamentos/b32323cc-4df2-48ea-5c43-08db710c5781 responded 204 in 11.8011 ms
+[14:30:48 INF] HTTP GET /api/pensamentos responded 200 in 4.2296 ms
+[14:30:48 INF] HTTP GET /api/pensamentos/bd071dc1-c314-4abe-d85a-08db710727d7 responded 200 in 6.4193 ms
+[14:30:49 INF] HTTP DELETE /api/pensamentos/bd071dc1-c314-4abe-d85a-08db710727d7 responded 204 in 22.0907 ms
+[14:30:49 INF] HTTP GET /api/pensamentos responded 200 in 6.8065 ms
+[14:30:49 INF] HTTP GET /api/pensamentos/c5078f9c-43df-4725-5c47-08db710c5781 responded 200 in 6.3811 ms
+[14:30:50 INF] HTTP DELETE /api/pensamentos/c5078f9c-43df-4725-5c47-08db710c5781 responded 204 in 25.3503 ms
+[14:30:50 INF] HTTP GET /api/pensamentos responded 200 in 5.9807 ms
+[14:30:51 INF] HTTP GET /api/pensamentos/c648029e-2fd1-46ac-5c3d-08db710c5781 responded 200 in 6.0387 ms
+[14:30:51 INF] HTTP DELETE /api/pensamentos/c648029e-2fd1-46ac-5c3d-08db710c5781 responded 204 in 11.4087 ms
+[14:30:51 INF] HTTP GET /api/pensamentos responded 200 in 5.9760 ms
+[14:30:52 INF] HTTP GET /api/pensamentos/c7a9094c-cafb-4f7f-d864-08db710727d7 responded 200 in 6.3931 ms
+[14:30:52 INF] HTTP DELETE /api/pensamentos/c7a9094c-cafb-4f7f-d864-08db710727d7 responded 204 in 10.3287 ms
+[14:30:52 INF] HTTP GET /api/pensamentos responded 200 in 4.0291 ms
+[14:30:53 INF] HTTP GET /api/pensamentos/d6720845-fa76-4476-d865-08db710727d7 responded 200 in 7.5136 ms
+[14:30:53 INF] HTTP DELETE /api/pensamentos/d6720845-fa76-4476-d865-08db710727d7 responded 204 in 21.4247 ms
+[14:30:53 INF] HTTP GET /api/pensamentos responded 200 in 6.8469 ms
+[14:30:55 INF] HTTP GET /api/pensamentos/d7450633-6469-4eaa-196d-08db70f0ef3b responded 200 in 6.6194 ms
+[14:30:55 INF] HTTP DELETE /api/pensamentos/d7450633-6469-4eaa-196d-08db70f0ef3b responded 204 in 23.5114 ms
+[14:30:55 INF] HTTP GET /api/pensamentos responded 200 in 4.1420 ms
+[14:30:56 INF] HTTP GET /api/pensamentos/df9fe402-2869-476b-faec-08db71b00b2a responded 200 in 7.5642 ms
+[14:30:56 INF] HTTP DELETE /api/pensamentos/df9fe402-2869-476b-faec-08db71b00b2a responded 204 in 11.6495 ms
+[14:30:56 INF] HTTP GET /api/pensamentos responded 200 in 4.8371 ms
+[14:30:57 INF] HTTP GET /api/pensamentos/e1c35726-a848-4533-d857-08db710727d7 responded 200 in 4.6186 ms
+[14:30:57 INF] HTTP DELETE /api/pensamentos/e1c35726-a848-4533-d857-08db710727d7 responded 204 in 24.2711 ms
+[14:30:57 INF] HTTP GET /api/pensamentos responded 200 in 6.5223 ms
+[14:30:58 INF] HTTP GET /api/pensamentos/e3c2ac0a-a00b-4a83-d85e-08db710727d7 responded 200 in 5.7245 ms
+[14:30:59 INF] HTTP DELETE /api/pensamentos/e3c2ac0a-a00b-4a83-d85e-08db710727d7 responded 204 in 12.2176 ms
+[14:30:59 INF] HTTP GET /api/pensamentos responded 200 in 4.0272 ms
+[14:31:00 INF] HTTP GET /api/pensamentos/f4137b44-f8f4-4554-d861-08db710727d7 responded 200 in 6.6727 ms
+[14:31:01 INF] HTTP DELETE /api/pensamentos/f4137b44-f8f4-4554-d861-08db710727d7 responded 204 in 30.5968 ms
+[14:31:01 INF] HTTP GET /api/pensamentos responded 200 in 5.3325 ms
+[14:31:02 INF] HTTP GET /api/pensamentos/fb71ce5b-69e1-4b83-d859-08db710727d7 responded 200 in 5.5012 ms
+[14:31:03 INF] HTTP DELETE /api/pensamentos/fb71ce5b-69e1-4b83-d859-08db710727d7 responded 204 in 20.1913 ms
+[14:31:03 INF] HTTP GET /api/pensamentos responded 200 in 3.8019 ms
+[14:31:44 INF] HTTP POST /api/pensamentos responded 201 in 15.3423 ms
+[14:31:44 INF] HTTP GET /api/pensamentos responded 200 in 5.0803 ms
+[14:32:11 INF] HTTP GET /api/pensamentos/bf1bd3a4-d4dd-4ea1-faed-08db71b00b2a responded 200 in 5.9206 ms
+[14:32:19 INF] HTTP DELETE /api/pensamentos/bf1bd3a4-d4dd-4ea1-faed-08db71b00b2a responded 204 in 27.7061 ms
+[14:32:19 INF] HTTP GET /api/pensamentos responded 200 in 5.2104 ms
+[15:09:03 INF] HTTP GET /api/pensamentos responded 200 in 69.4797 ms
+[15:09:19 INF] HTTP GET /api/pensamentos responded 200 in 6.5203 ms
+[15:09:36 INF] HTTP GET /api/pensamentos responded 200 in 8.5476 ms
+[15:11:01 INF] HTTP GET /api/pensamentos responded 200 in 11.6255 ms
+[15:11:20 INF] HTTP GET /api/pensamentos responded 200 in 7.0024 ms
+[15:13:39 INF] HTTP GET /api/pensamentos responded 200 in 11.6737 ms
+[15:13:47 INF] HTTP GET /api/pensamentos responded 200 in 10.6887 ms
+[15:14:14 INF] HTTP GET /api/pensamentos responded 200 in 8.4655 ms
+[15:14:58 INF] HTTP GET /api/pensamentos responded 200 in 6.2463 ms
+[15:15:23 INF] HTTP GET /api/pensamentos responded 200 in 6.8436 ms
+[15:15:26 INF] HTTP GET /api/pensamentos responded 200 in 12.2600 ms
+[15:15:28 INF] HTTP GET /api/pensamentos responded 200 in 4.6692 ms
+[15:15:35 INF] HTTP GET /api/pensamentos responded 200 in 11.0933 ms
+[15:15:37 INF] HTTP GET /api/pensamentos responded 200 in 7.7644 ms
+[15:15:43 INF] HTTP GET /api/pensamentos responded 200 in 8.2376 ms
+[15:15:48 INF] HTTP GET /api/pensamentos responded 200 in 10.1463 ms
+[15:15:58 INF] HTTP GET /api/pensamentos responded 200 in 9.2882 ms
+[15:16:01 INF] HTTP GET /api/pensamentos responded 200 in 7.3562 ms
+[15:16:28 INF] HTTP GET /api/pensamentos responded 200 in 10.9896 ms
+[15:16:34 INF] HTTP GET /api/pensamentos responded 200 in 13.2779 ms
+[15:16:38 INF] HTTP GET /api/pensamentos responded 200 in 8.5285 ms
+[15:16:41 INF] HTTP GET /api/pensamentos responded 200 in 6.2383 ms
+[15:16:48 INF] HTTP GET /api/pensamentos responded 200 in 11.5221 ms
+[15:17:08 INF] HTTP GET /api/pensamentos responded 200 in 9.3464 ms
+[15:17:18 INF] HTTP GET /api/pensamentos responded 200 in 6.1798 ms
+[15:17:23 INF] HTTP GET /api/pensamentos responded 200 in 10.9738 ms
+[15:17:24 INF] HTTP GET /api/pensamentos responded 200 in 6.3123 ms
+[15:17:37 INF] HTTP POST /api/pensamentos responded 201 in 19.2237 ms
+[15:17:37 INF] HTTP GET /api/pensamentos responded 200 in 8.8595 ms
+[15:17:39 INF] HTTP GET /api/pensamentos/c6ee2ee8-8f54-4ec1-faee-08db71b00b2a responded 200 in 6.4753 ms
+[15:17:43 INF] HTTP PUT /api/pensamentos responded 200 in 48.7555 ms
+[15:17:43 INF] HTTP GET /api/pensamentos responded 200 in 7.2883 ms
+[15:20:54 INF] HTTP GET /api/pensamentos/c6ee2ee8-8f54-4ec1-faee-08db71b00b2a responded 200 in 64.8436 ms
+[15:20:54 INF] HTTP DELETE /api/pensamentos/c6ee2ee8-8f54-4ec1-faee-08db71b00b2a responded 204 in 26.4557 ms
+[15:20:54 INF] HTTP GET /api/pensamentos responded 200 in 7.0864 ms
+[15:36:22 INF] Iniciando aplicação Web
+[15:36:22 INF] Now listening on: https://localhost:7043
+[15:36:22 INF] Now listening on: http://localhost:5084
+[15:36:22 INF] Application started. Press Ctrl+C to shut down.
+[15:36:22 INF] Hosting environment: Development
+[15:36:22 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\csharp\MemotecaApi\MemotecaApi
+[15:36:28 INF] HTTP POST /api/pensamentos responded 201 in 236.7446 ms
+[15:36:29 INF] HTTP GET /api/pensamentos responded 200 in 219.9412 ms
+[16:01:17 INF] HTTP GET /api/pensamentos responded 200 in 123.3890 ms
+[16:14:17 INF] HTTP GET /api/pensamentos responded 200 in 62.8038 ms
+[16:32:16 INF] HTTP GET /api/pensamentos responded 200 in 90.5088 ms
+[18:41:50 FTL] Application terminated unexpectedly
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.Exists()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in C:\Users\mateusnunes_frwk\Desktop\estudos\repositorios\memoteca\MemotecaApi\MemotecaApi\Program.cs:line 25
+[18:42:17 INF] Iniciando aplicação Web
+[18:42:17 INF] Now listening on: https://localhost:7043
+[18:42:17 INF] Now listening on: http://localhost:5084
+[18:42:17 INF] Application started. Press Ctrl+C to shut down.
+[18:42:17 INF] Hosting environment: Development
+[18:42:17 INF] Content root path: C:\Users\mateusnunes_frwk\Desktop\estudos\repositorios\memoteca\MemotecaApi\MemotecaApi
+[18:43:02 INF] HTTP GET /api/pensamentos responded 200 in 460.9481 ms
+[18:46:11 INF] HTTP GET /api/pensamentos responded 200 in 60.3010 ms

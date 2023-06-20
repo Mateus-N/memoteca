@@ -1,0 +1,39 @@
+{
+    "Serilog": {
+        "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File", "Serilog.Sinks.Seq" ],
+        "MinimumLevel": {
+            "Default": "Information",
+            "Override": {
+                "Microsoft": "Warning",
+                "Microsoft.Hosting.Lifetime": "Information"
+            }
+        },
+        "WriteTo": [
+            {
+                "Name": "Console",
+                "Args": {
+                    "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}",
+                    "theme": "Serilog.Sinks.SystemConsole.Themes.SystemConsoleTheme::Literate, Serilog.Sinks.Console",
+                }
+            },
+            {
+                "Name": "File",
+                "Args": {
+                    "path": "./logs/log-.txt",
+                    "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}",
+                    "theme": "Serilog.Sinks.SystemConsole.Themes.SystemConsoleTheme::Literate, Serilog.Sinks.Console",
+                    "formatter": {
+                        "type": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact",
+                        "valueFormatter": {
+                            "typeTagName": "customTypeTag"
+                        }
+                    },
+                    "rollingInterval": "Day"
+                }
+            }
+        ],
+        "Properties": {
+            "Application": "MemotecaApi"
+        }
+    }
+}

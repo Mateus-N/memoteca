@@ -12,14 +12,14 @@ public static class PagedBaseResponseHelper
         response = await ModelResponse(response, request, query);
 
         if (!response.Reverse)
-            response.Data = GetData(response, query);
+            response.Data = GetPagedData(response, query);
         else
-            response.Data = GetDataReverse(response, query);
+            response.Data = GetReversePagedData(response, query);
 
         return response;
     }
 
-    private static List<T>? GetData<TResponse, T>(TResponse response, IQueryable<T> query)
+    private static List<T>? GetPagedData<TResponse, T>(TResponse response, IQueryable<T> query)
         where TResponse : PagedBaseResponse<T>, new()
     {
         return query.OrderByDynamic(response.OrderBy!)
@@ -28,7 +28,7 @@ public static class PagedBaseResponseHelper
                     .ToList();
     }
 
-    private static List<T>? GetDataReverse<TResponse, T>(TResponse response, IQueryable<T> query)
+    private static List<T>? GetReversePagedData<TResponse, T>(TResponse response, IQueryable<T> query)
         where TResponse : PagedBaseResponse<T>, new()
     {
         return query.OrderByDynamic(response.OrderBy!)
@@ -48,7 +48,7 @@ public static class PagedBaseResponseHelper
         response.PageSize = request.PageSize > 10 || request.PageSize < 0 ? 10 : request.PageSize;
         response.PageNumber = request.Page > response.TotalPages ? 1 : request.Page;
 
-        response.OrderBy = request.OrderBy;
+        response.OrderBy = $"{request.OrderBy[..1].ToUpper()}{request.OrderBy[1..]}";
         response.Reverse = request.Reverse;
         response.TotalRegisters = count;
 

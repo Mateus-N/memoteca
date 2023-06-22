@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { PagedPensamentos } from './models/pagedPensamentos';
 import { CreatePensamentoDto } from './models/CreatePensamentoDto';
@@ -16,8 +16,19 @@ export class PensamentoService {
     private readonly http: HttpClient,
   ) {}
 
-  public listar(): Observable<PagedPensamentos> {
-    return this.http.get<PagedPensamentos>(this.api);
+  public listar(pagina: number, filtro: string): Observable<PagedPensamentos> {
+    const itensPorPagina = 6;
+
+    let params = new HttpParams()
+      .set("page", pagina)
+      .set("pageSize", itensPorPagina)
+
+    if (filtro.trim().length > 2) {
+      params = params.set("busca", filtro)
+    }
+
+    return this.http
+      .get<PagedPensamentos>(this.api, { params });
   }
 
   public criar(pensamento: CreatePensamentoDto): Observable<Pensamento> {

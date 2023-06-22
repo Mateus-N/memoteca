@@ -8,12 +8,12 @@ public class PagedBaseRequest
     public string Busca { get; set; }
     public bool Reverse { get; set; }
 
-    public PagedBaseRequest(int page, int pageSize, string orderByProperty, string busca, bool reverse)
+    public PagedBaseRequest()
     {
-        Page = page;
-        PageSize = pageSize;
-        OrderBy = orderByProperty;
-        Busca = busca;
-        Reverse = reverse;
+        Page = 1;
+        PageSize = 10;
+        OrderBy = "Id";
+        Busca = "";
+        Reverse = false;
     }
 }

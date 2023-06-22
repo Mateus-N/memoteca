@@ -41,17 +41,10 @@ public class PensamentosController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetALlPagedAsync(
-        [FromQuery] int page = 1,
-        [FromQuery] int pageSize = 10,
-        [FromQuery] string orderBy = "Id",
-        [FromQuery] string busca = "",
-        [FromQuery] bool reverse = false
-    )
+    public async Task<IActionResult> GetALlPagedAsync([FromQuery] PagedBaseRequest request)
     {
         try
         {
-            PagedBaseRequest request = new(page, pageSize, orderBy, busca, reverse);
             var pensamentosPaginados = await service.GetPagedAsync(request);
             return Ok(pensamentosPaginados);
         }

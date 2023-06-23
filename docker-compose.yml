@@ -6,7 +6,7 @@ volumes:
 services:
   apigateway:
     build:
-      context: ./MemotecaApi/ApiGateway
+      context: ./back-end/ApiGateway
       dockerfile: Dockerfile
     ports:
       - "8000:80"
@@ -30,7 +30,7 @@ services:
 
   memotecaapi:
     build:
-      context: ./MemotecaApi/MemotecaApi
+      context: ./back-end/MemotecaApi
       dockerfile: Dockerfile
     depends_on:
       - dbmemoteca
@@ -42,12 +42,12 @@ services:
   
   front:
     build:
-      context: ./front
+      context: ./front-end
       dockerfile: Dockerfile
     depends_on:
       - memotecaapi
     ports:
-      - "4000:4200"
+      - "8080:80"
     restart: always
     networks:
       - apprede

@@ -14,7 +14,7 @@
         },
         {
             "UpstreamPathTemplate": "/api/pensamentos/{pensamentoId}",
-            "UpstreamHttpMethod": [ "Get", "Delete" ],
+            "UpstreamHttpMethod": [ "Get", "Delete", "Options" ],
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {

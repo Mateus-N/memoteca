@@ -43,7 +43,8 @@ export class ListarPensamentoComponent {
   }
 
   ehUltimaPagina(pagedPensamentos: PagedPensamentos) : void {
-    if (pagedPensamentos.pageNumber == pagedPensamentos.totalPages) {
+    if (pagedPensamentos.pageNumber == pagedPensamentos.totalPages
+      || pagedPensamentos.totalPages == 0) {
       this.haMaisPensamentos = false;
     } else {
       this.haMaisPensamentos = true;

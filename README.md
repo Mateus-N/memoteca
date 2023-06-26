@@ -80,8 +80,21 @@ O objeto deve ser no seguinte formato:
   modelo: string
 }
 ```
-A requisição retorna HTTP 20e o objeto editado.
+A requisição retorna HTTP 200, e o objeto editado.
 
 ### GET api/pensamentos/{id}
 
 Busca e exclui o pensamento que possui o ID passado retornando HTTP 204.
+
+## LOG
+A API tem como gerenciador de logs o SERILOG, os logs são filtrados e salvos em arquivo, o loggin também pode ser acessado em qualquer classe do projeto através de inversão de dependêcias.
+
+<img src="https://github.com/Mateus-N/memoteca/blob/master/images/logs.png" alt="Logs da api" width="500">
+
+## API Gateway
+
+Utilizando o Ocelot a aplicação possui uma API Gateway que recebe todas asa chamadas do front e direciona para a API de pensamentos, com isso foi possível remover o Mapeamento de porta da API de pensamento e apenas a API Gateway tem Mapeamento para fora do container
+
+<img src="https://github.com/Mateus-N/memoteca/blob/master/images/ocelot.png" alt="Tela inicial da aplicação" width="500">
+
+feito por <a href="https://www.linkedin.com/in/mateusnunes620/">Mateus Nunes</a>

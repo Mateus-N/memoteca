@@ -11,31 +11,13 @@ public static class PagedBaseResponseHelper
         TResponse response = new();
         response = await ModelResponse(response, request, query);
 
-        if (!response.Reverse)
-            response.Data = GetPagedData(response, query);
-        else
-            response.Data = GetReversePagedData(response, query);
+        response.Data = query.OrderByDynamic(response.OrderBy!)
+                            .ReverseOrder(response.Reverse)
+                            .Skip((response.PageNumber - 1) * response.PageSize)
+                            .Take(response.PageSize)
+                            .ToList();
 
         return response;
-    }
-
-    private static List<T>? GetPagedData<TResponse, T>(TResponse response, IQueryable<T> query)
-        where TResponse : PagedBaseResponse<T>, new()
-    {
-        return query.OrderByDynamic(response.OrderBy!)
-                    .Skip((response.PageNumber - 1) * response.PageSize)
-                    .Take(response.PageSize)
-                    .ToList();
-    }
-
-    private static List<T>? GetReversePagedData<TResponse, T>(TResponse response, IQueryable<T> query)
-        where TResponse : PagedBaseResponse<T>, new()
-    {
-        return query.OrderByDynamic(response.OrderBy!)
-                    .Reverse()
-                    .Skip((response.PageNumber - 1) * response.PageSize)
-                    .Take(response.PageSize)
-                    .ToList();
     }
 
     private static async Task<TResponse> ModelResponse<TResponse, T>
@@ -58,5 +40,12 @@ public static class PagedBaseResponseHelper
     private static IEnumerable<T> OrderByDynamic<T>(this IEnumerable<T> query, string propertyName)
     {
         return query.OrderBy(x => x?.GetType().GetProperty(propertyName)?.GetValue(x, null));
+    }
+
+    private static IEnumerable<T> ReverseOrder<T>(this IEnumerable<T> query, bool reverse)
+    {
+        if (reverse)
+            return query.Reverse();
+        return query;
     }
 }

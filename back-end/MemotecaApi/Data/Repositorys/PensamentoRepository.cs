@@ -17,7 +17,7 @@ public class PensamentoRepository : IPensamentoRepository, IInjetable
 
     public async Task<Pensamento?> BuscaPorIdAsync(Guid id)
     {
-        return await context.Pensamentos.FirstOrDefaultAsync(p => p.Id == id);
+        return await context.Pensamentos.FirstOrDefaultAsync(p => p.Id == id)!;
     }
 
     public async Task CriaPensamentoAsync(Pensamento pensamento)
@@ -49,7 +49,7 @@ public class PensamentoRepository : IPensamentoRepository, IInjetable
             .GetResponseAsync<PagedBaseResponse<Pensamento>, Pensamento>(pensamentos, request);
     }
 
-    public async Task<Pensamento> AtualizaPensamento(Pensamento update)
+    public async Task<Pensamento?> AtualizaPensamento(Pensamento update)
     {
         context.Pensamentos.Update(update);
         context.SaveChanges();

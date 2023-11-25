@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ocelot" Version="19.0.2" />
+    <PackageReference Include="Ocelot" Version="20.0.0" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties ocelot_1json__JsonSchema="https://json.schemastore.org/ocelot.json" /></VisualStudio></ProjectExtensions>
 
 </Project>

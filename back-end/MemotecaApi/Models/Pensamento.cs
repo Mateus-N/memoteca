@@ -6,7 +6,7 @@ public record Pensamento
 {
     [Key]
     [Required]
-    public required Guid Id { get; set; }
+    public Guid Id { get; set; }
     [Required]
     public required string Conteudo { get; set; }
     [Required]

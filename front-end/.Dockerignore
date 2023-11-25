@@ -8,3 +8,11 @@ docker-compose*
 README.md
 LICENSE
 .vscode
+.editorconfig
+/.vscode/*
+/node_modules
+/e2e
+/docs
+*.zip
+dist/*
+/dist/*
